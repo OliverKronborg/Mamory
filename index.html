@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="da" manifest="manifest.appcache">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="img/LOGO_OK.png">
+<link rel="apple-touch-icon-precomposed" href="img/LOGO_OK.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="manifest" href="web-app-manifest.json">
+
+
+<title>Vend mig</title>
+</head>
+
+<body onload="newGame();">
+<div id="welcome">
+  <h1>velkommen</h1>
+  <p>vælg antal brikker</p>
+  <form id="playGame">
+    <input type="radio" name="level" value="16" id="sixten" checked>
+    <label for="sixten">16</label>
+    <input type="radio" name="level" value="20" id="twenty">
+    <label for="twenty">20</label>
+    <input type="radio" name="level" value="24" id="fourtwenty">
+    <label for="fourtwenty">24</label>
+    <button type="submit">Play game</button>
+  </form>
+</div>
+<div id="board">
+
+</div>
+<div id="message">
+  <p>tillykke</p>
+  <button>spil igen</button>
+</div>
+<script src="javascript.js"></script>
+</body>
+</html>
