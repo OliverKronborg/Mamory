@@ -61,8 +61,8 @@ body {
 	perspective: 800px;
 }
 #board section {
-	width: 32vw;
-	height: 32vw;
+	width: 22vw;
+	height: 22vw;
 	margin: 1vw 0;
 	position: relative;
 	transform: rotateY(0deg);
